@@ -106,4 +106,21 @@
   font-size: 14px;
   line-height: 1.5;
   margin: 6px 0;
+
+}
+.resume-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #6366f1, #ec4899);
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(99, 102, 241, 0.4);
 }
